@@ -1,2 +1,185 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=11;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=10;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VeronaDB"
+  - Name: InMemory
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: ODBCDatabase1
+  Id: g=c3026a3d574d6487f067156d7033e7d1
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: MyDataLogger
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=10;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=10;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=10;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=10;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable3
+          Type: StoreColumn
+          DataType: String
+        - Name: Variable4
+          Type: StoreColumn
+          DataType: Int32
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "Bob"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    Value: "Password42"
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=10;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=59
+    Direction: Forward
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+    Value: "3K9SSL3\\SQLEXPRESS"
+  - Name: Database
+    Type: PropertyType
+    DataType: String
+    Value: "TestOptix"
