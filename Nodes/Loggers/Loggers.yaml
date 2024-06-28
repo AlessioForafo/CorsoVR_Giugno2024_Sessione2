@@ -12,7 +12,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/CorsoVR_Giugno2024_Sessione2/DataStores/ODBCDatabase1"
+    Value: "/Objects/CorsoVR_Giugno2024_Sessione2/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType

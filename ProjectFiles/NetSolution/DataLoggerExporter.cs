@@ -9,6 +9,7 @@ using FTOptix.Core;
 using FTOptix.HMIProject;
 using FTOptix.Recipe;
 using FTOptix.System;
+using FTOptix.Alarm;
 #endregion
 
 public class DataLoggerExporter : BaseNetLogic

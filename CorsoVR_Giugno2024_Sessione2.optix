@@ -97,14 +97,6 @@ Project:
    Uri: 'urn:FTOptix:Modbus:Net'
    Module: FTOptix.Modbus.Net
    Version: 1.0
-  25:
-   Uri: 'urn:FTOptix:ODBCStore'
-   Module: FTOptix.ODBCStore
-   Version: 1.0
-  26:
-   Uri: 'urn:FTOptix:ODBCStore:Net'
-   Module: FTOptix.ODBCStore.Net
-   Version: 1.0
   27:
    Uri: 'urn:FTOptix:Recipe'
    Module: FTOptix.Recipe
@@ -122,14 +114,14 @@ Project:
    Module: FTOptix.System.Net
    Version: 2.0
  Statistics:
-  TotalNodeCount: 2644
-  Objects: 528
-  ObjectTypes: 22
-  Variables: 2073
+  TotalNodeCount: 2718
+  Objects: 545
+  ObjectTypes: 23
+  Variables: 2124
   VariableTypes: 0
   DataTypes: 0
-  Methods: 21
-  References: 82
+  Methods: 26
+  References: 71
   ReferenceTypes: 0
   Files: 29
  Nodes:

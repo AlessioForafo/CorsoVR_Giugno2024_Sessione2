@@ -10,6 +10,7 @@ using FTOptix.NativeUI;
 using FTOptix.CoreBase;
 using FTOptix.NetLogic;
 using FTOptix.System;
+using FTOptix.Alarm;
 #endregion
 
 public class IdleTimeoutLogic : BaseNetLogic
