@@ -1,2 +1,18 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: String
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable5
+  Type: BaseDataVariableType
+  DataType: Int32
