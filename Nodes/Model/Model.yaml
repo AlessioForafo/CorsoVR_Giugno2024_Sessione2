@@ -42,3 +42,4 @@ Children:
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"LocaleId":"en-US","Text":"rpm"},"Description":{"LocaleId":"en-US","Text":"mioRPM"},"PhysicalDimension":8,"Slope":60.0,"Intercept":50.0}}]
+- File: Variabili_OPC_UA/Variabili_OPC_UA.yaml

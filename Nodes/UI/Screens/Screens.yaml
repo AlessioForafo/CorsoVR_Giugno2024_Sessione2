@@ -1008,7 +1008,6 @@ Children:
     - Name: Active
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: true
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -1019,26 +1018,21 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: Appearance
-      Type: BaseVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "rectangular"
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#0000ff"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1210.0
+      Value: 150.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 730.0
+      Value: 110.0
+    - Name: Color
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#00ff00"
 - Name: Screen2
   Id: g=c4dcdb01945f86247d7bbd2d7a5ac489
   Supertype: Screen

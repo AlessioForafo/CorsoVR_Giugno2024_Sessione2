@@ -1,0 +1,16 @@
+Name: Variabili OPC UA
+Id: g=b74ea5a6a5b57c0cd7a90c1241edf66b
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=8d655a6f9efe7c1baf56697db77bc826
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=a7fe87d928eb3c327600a883dce58577
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Id: g=e545517e83e869efe8ff58307f8148e1
+  Type: BaseDataVariableType
+  DataType: Int32

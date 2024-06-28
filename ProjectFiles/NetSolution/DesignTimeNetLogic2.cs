@@ -18,6 +18,8 @@ using FTOptix.CoreBase;
 using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 using FTOptix.Alarm;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class DesignTimeNetLogic2 : BaseNetLogic
