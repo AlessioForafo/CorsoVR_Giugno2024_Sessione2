@@ -11,6 +11,7 @@ using FTOptix.CoreBase;
 using FTOptix.NetLogic;
 using FTOptix.System;
 using FTOptix.Alarm;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class IdleTimeoutLogic : BaseNetLogic

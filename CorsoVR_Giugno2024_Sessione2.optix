@@ -113,16 +113,32 @@ Project:
    Uri: 'urn:FTOptix:System:Net'
    Module: FTOptix.System.Net
    Version: 2.0
+  31:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  32:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
+  33:
+   Uri: 'urn:FTOptix:OPCUAClient'
+   Module: FTOptix.OPCUAClient
+   Version: 1.2
+  34:
+   Uri: 'urn:FTOptix:OPCUAClient:Net'
+   Module: FTOptix.OPCUAClient.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 2718
-  Objects: 545
+  TotalNodeCount: 2762
+  Objects: 556
   ObjectTypes: 23
-  Variables: 2124
+  Variables: 2157
   VariableTypes: 0
   DataTypes: 0
   Methods: 26
-  References: 71
+  References: 89
   ReferenceTypes: 0
-  Files: 29
+  Files: 32
  Nodes:
  - File: Nodes/CorsoVR_Giugno2024_Sessione2.yaml

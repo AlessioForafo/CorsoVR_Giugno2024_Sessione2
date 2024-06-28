@@ -7,6 +7,8 @@ using FTOptix.UI;
 using FTOptix.NetLogic;
 using FTOptix.System;
 using FTOptix.Alarm;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class ClockLogic : BaseNetLogic
