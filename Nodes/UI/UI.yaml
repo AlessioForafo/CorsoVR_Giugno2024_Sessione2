@@ -179,6 +179,7 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -276,6 +277,36 @@ Children:
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/CorsoVR_Giugno2024_Sessione2/UI/Screens/Screen3"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoVR_Giugno2024_Sessione2/UI/Screens/Screen4"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoVR_Giugno2024_Sessione2/UI/Screens/Screen5"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -401,6 +432,32 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 100.0
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/CorsoVR_Giugno2024_Sessione2/NetLogic/ClockLogic/Time"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 280.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
 - File: Screens/Screens.yaml
 - File: LoginForm/LoginForm.yaml
 - File: UserEditor/UserEditor.yaml
@@ -473,3 +530,4 @@ Children:
     Type: BaseVariableType
     DataType: Boolean
     AccessLevel: Read
+- File: Widget/Widget.yaml

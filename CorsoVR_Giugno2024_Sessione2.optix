@@ -113,16 +113,24 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  29:
+   Uri: 'urn:FTOptix:System'
+   Module: FTOptix.System
+   Version: 3.0
+  30:
+   Uri: 'urn:FTOptix:System:Net'
+   Module: FTOptix.System.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 2359
-  Objects: 481
-  ObjectTypes: 19
-  Variables: 1840
+  TotalNodeCount: 2632
+  Objects: 524
+  ObjectTypes: 22
+  Variables: 2065
   VariableTypes: 0
   DataTypes: 0
-  Methods: 19
-  References: 80
+  Methods: 21
+  References: 82
   ReferenceTypes: 0
-  Files: 28
+  Files: 29
  Nodes:
  - File: Nodes/CorsoVR_Giugno2024_Sessione2.yaml
