@@ -1,2 +1,48 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: IdleTimeoutLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Duration
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:01:00:0.0000000"
+  - Name: OnTimeout
+    Type: MethodInvocation
+    Children:
+    - Class: Reference
+      Target: ns=2;i=98
+      Direction: Forward
+    - Name: ObjectPointer
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType"
+    - Name: Method
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "9819596a6fb88d10259fc8280ab8bb9b",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

@@ -2,10 +2,42 @@ Name: DataStores
 Type: DataStoresCategoryFolder
 Children:
 - Name: EmbeddedDatabase1
+  Id: g=ed365f8091974812de1f672d754cbea5
   Type: SQLiteStore
   Children:
   - Name: Tables
     Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=10;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=10;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=10;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=10;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Variable2
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Variable3
+          Type: StoreColumn
+          DataType: String
   - Class: Reference
     Target: ns=11;i=30
     Direction: Forward
