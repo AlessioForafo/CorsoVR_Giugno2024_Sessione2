@@ -3,15 +3,12 @@ Id: g=d092c272e75d36d25633f43dc8964581
 Type: ModelCategoryFolder
 Children:
 - Name: Variable1
-  Id: g=07f8e298c75d3295c3d496910c93dbb5
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable2
-  Id: g=ba1bd8a45f160beb52506483c634a9c8
   Type: BaseDataVariableType
   DataType: Float
 - Name: Variable3
-  Id: g=deb3763fdcfb93d1ae2eb1baa383cdca
   Type: BaseDataVariableType
   DataType: String
 - Name: Variable4
